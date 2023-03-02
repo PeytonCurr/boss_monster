@@ -1,0 +1,16 @@
+.playerArea>marquee {
+    min-height: 40vh;
+}
+
+.healthBar {
+    width: 100%;
+    min-height: 2vh;
+}
+
+.playerName {
+    width: 14%;
+}
+
+.bossClass {
+    user-select: none;
+}

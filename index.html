@@ -15,6 +15,69 @@
 
 <body>
 
+    <header class="container-fluid bg-primary">
+        <h1><i class="mdi mdi-snake"></i> Boss Fight</h1>
+    </header>
+
+    <main class="containter-fluid">
+
+        <!-- SECTION Fight -->
+        <!-- #regions -->
+        <section class="row">
+
+            <!-- STUB Player side -->
+            <div class="col-6 p-3 playerArea">
+
+                <marquee behavior="alternate" direction="down" class="border border-dark">
+                    <marquee behavior="alternate">
+                        <!-- STUB Player 1 -->
+                        <div class="card playerName bg-dark text-light p-1">
+                            <h6>Will <i class="mdi mdi-sword-cross"></i>5</h6>
+                            <div class="border border-dark bg-danger healthBar text-center">100</div>
+                        </div>
+                        <i class="mdi mdi-run display-1"></i>
+                    </marquee>
+                    <marquee behavior="alternate">
+                        <!-- STUB Player 2 -->
+                        <div class="card playerName bg-dark text-light p-1">
+                            <h6>Peyt <i class="mdi mdi-sword-cross"></i>10</h6>
+                            <div class="border border-dark bg-danger healthBar text-center">50</div>
+                        </div>
+                        <i class="mdi mdi-run display-1"></i>
+                    </marquee>
+                </marquee>
+
+            </div>
+
+            <!-- STUB Boss Side -->
+            <div class="col-6">
+                <div class="card playerName bg-dark text-light p-1 bossClass">
+                    <h6>BOSS <i class="mdi mdi-sword-cross"></i>50</h6>
+                    <div class="border border-dark bg-danger healthBar text-center"><span id="bossHealth">100</span>
+                    </div>
+                </div>
+                <i class="mdi mdi-snake display-1" onclick="damageBoss()"></i>
+            </div>
+
+        </section>
+        <!-- #endregion -->
+
+    </main>
+
+    <footer class="container-fluid">
+        <section class="row justify-content-between">
+
+            <!-- STUB Purchase Menu -->
+            <div class="col-5">
+                <div class="card"></div>
+            </div>
+
+            <!-- STUB Reset Button -->
+            <div class="col-3 text-end">
+                <button class="btn btn-danger">RESET</button>
+            </div>
+        </section>
+    </footer>
 
     <script src="app.js"></script>
 </body>
