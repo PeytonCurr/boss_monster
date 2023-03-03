@@ -1,8 +1,14 @@
 .playerArea>marquee {
     min-height: 40vh;
+    width: 100%;
 }
 
-.healthBar {
+/* .healthBar {
+    width: 100%;
+    min-height: 2vh;
+} */
+
+#healtBar {
     width: 100%;
     min-height: 2vh;
 }

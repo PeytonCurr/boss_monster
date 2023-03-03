@@ -31,17 +31,19 @@
                 <marquee behavior="alternate" direction="down" class="border border-dark">
                     <marquee behavior="alternate">
                         <!-- STUB Player 1 -->
-                        <div class="card playerName bg-dark text-light p-1">
+                        <div id="Will" class="card playerName bg-dark text-light p-1">
                             <h6>Will <i class="mdi mdi-sword-cross"></i>5</h6>
-                            <div class="border border-dark bg-danger healthBar text-center">100</div>
+                            <div id="Will-healthBar" class="border border-dark bg-danger text-center"><span
+                                    class="healthSta">100</span></div>
                         </div>
                         <i class="mdi mdi-run display-1"></i>
                     </marquee>
                     <marquee behavior="alternate">
                         <!-- STUB Player 2 -->
-                        <div class="card playerName bg-dark text-light p-1">
+                        <div id="Peyt" class="card playerName bg-dark text-light p-1">
                             <h6>Peyt <i class="mdi mdi-sword-cross"></i>10</h6>
-                            <div class="border border-dark bg-danger healthBar text-center">50</div>
+                            <div id="Peyt-healthBar" class="border border-dark bg-danger text-center"><span
+                                    class="healthSta">50</span></div>
                         </div>
                         <i class="mdi mdi-run display-1"></i>
                     </marquee>
@@ -51,9 +53,10 @@
 
             <!-- STUB Boss Side -->
             <div class="col-6">
-                <div class="card playerName bg-dark text-light p-1 bossClass">
-                    <h6>BOSS <i class="mdi mdi-sword-cross"></i>50</h6>
-                    <div class="border border-dark bg-danger healthBar text-center"><span id="bossHealth">100</span>
+                <div id="bossHealth" class="card playerName bg-dark text-light p-1 bossClass">
+                    <h6>BOSS <i id="bossDamage" class="mdi mdi-sword-cross">5</i></h6>
+                    <div id="healthBar" class="border border-dark bg-danger text-center"><span
+                            class="healthStat">100</span>
                     </div>
                 </div>
                 <i class="mdi mdi-snake display-1" onclick="damageBoss()"></i>
