@@ -20,3 +20,10 @@
 .bossClass {
     user-select: none;
 }
+
+body {
+    background-image: url(https://th.bing.com/th/id/OIP.-gv1S5Dez9IbB-dJ_AI5wQHaEK?w=288&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    background-position: center;
+    background-size: cover;
+
+}
